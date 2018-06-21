@@ -1,0 +1,841 @@
+body {
+  width: 100%;
+}
+
+@font-face {
+
+    font-family: 'Montserrat';
+
+    src: url('Montserrat.ttf');
+
+}
+
+header {
+  background-image:linear-gradient(to right, #f3d34a, #40A497);
+  height: 103px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#logo{
+  height: 90px;
+  width: 90px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 40%;
+}
+
+.nav1  li{
+  margin: 3% 30px 0 30px;
+}
+
+.nav1 li a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat Light';
+}
+
+.nav1 li a:hover{
+  color: white;
+}
+
+
+.nav1 #contact a{
+  border: 1px solid grey;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 18px;
+  font-size: 15px;
+}
+
+.nav1 #contact:hover a{
+  border: 1px solid white;
+  padding: 10px 25px;
+  font-size: 15px;
+}
+
+.landingDiv {
+  width: 100%;
+}
+
+#imgfond{
+  position: absolute;
+  z-index: -999;
+  width: 100%;
+  max-height: 1000px;
+  background-size: cover;
+
+}
+
+.landingDiv p{
+  margin-top: 0px;
+  color: white;
+  font-size: 175px;
+  text-align: center;
+  padding-top: 6.2%;
+  font-family: "Segoe UI";
+}
+
+.landingDiv #artiste{
+  color: white;
+  font-size: 49px;
+  margin-top: -600px;
+  text-align: center;
+  font-family: 'Montserrat-Light';
+
+}
+
+.nav2{
+  margin-top: 19%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 38.5%;
+}
+
+.nav2 li {
+  margin-right: 6%;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+
+#mont1{
+  width: 100%;
+}
+
+
+.musicDiv{
+  width: 100%;
+  background-image:linear-gradient(#16247C, #4bb5c8);
+}
+
+#music{
+  margin-top: 0;
+  text-align: center;
+  font-size: 85px;
+  font-family: Montserrat Noir;
+  z-index: 1;
+}
+
+#mont2{
+  width: 100%;
+  margin-top: 7%;
+  z-index: 5;
+}
+
+
+.beatsDiv{
+  width: 100%;
+  background-color: black;
+  margin-top: 0px;
+}
+
+#beats{
+  margin-top: 0px;
+  margin-left: 123px;
+  margin-bottom: 0px;
+  padding-top: 207px;
+  font-size: 84px;
+  font-family: Montserrat Noir;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.beatsDiv h2{
+  margin-left: 340px;
+  margin-top: -20px;
+  font-size: 32px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat' Normal;
+}
+
+.beatsDiv h2{
+  text-align: center;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#demarche{
+  background-color: white;
+  width: 250px;
+  margin-left: 300px;
+  padding: 15px 46px;
+  border-radius: 40px;
+  font-size: 38px;
+  margin-top: 80px;
+  font-family: Montserrat Noir;
+}
+
+#demarche:hover{
+  background-image:linear-gradient(to right, #40A497, #4bb5c8);
+  color: white;
+  border: 1px solid white;
+}
+
+#barre{
+  width: 25%;
+  height: 0.1px;
+  transform: rotate(25deg);
+  margin-top: 120px;
+  margin-left: 590px;
+}
+
+#imgcrea{
+  width: 670px;
+  height: 492px;
+  margin-top: -25%;
+  margin-left: 52%;
+  visibility: visible;
+}
+
+#navdem{
+  position: absolute;
+  width: 670px;
+  height: 492px;
+  margin-top: -490px;
+  margin-left: 790px;
+  background-image:linear-gradient(#40A497, #4bb5c8);
+  border-radius: 50px;
+  border: 1px solid white;
+  visibility: hidden;
+}
+
+#navdem li{
+  color: black;
+  margin-top: 32px;
+  font-size: 30px;
+  margin-left: 50px;
+  color: white;
+}
+
+#navdemtop{
+  padding-top: 53px;
+}
+
+#mont3{
+  margin-top: 11%;
+  width: 100%;
+}
+
+.presentationDiv{
+  width: 100%;
+  background-image:linear-gradient(#40A497, #4bb5c8);
+}
+
+#presentation{
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 155px;
+  font-size: 85px;
+  font-family: Montserrat Noir;
+
+}
+
+.presentationDiv p{
+  padding-top: 133px;
+  text-align: center;
+  font-size: 42px;
+}
+
+#barre2{
+  width: 75%;
+  margin-top: -18px;
+
+}
+
+#art5 {
+  padding-top: 0px;
+  width: 817px;
+  height: 550px;
+  margin-left: 700px;
+  margin-top: 130px;
+  visibility: hidden;
+  font-size: 25px;
+
+}
+
+#img2{
+  height: 560px;
+  width: 560px;
+  margin-left: 30%;
+  margin-top: -460px;
+  border-radius: 300px;
+}
+
+#img2:hover{
+  border : 2px solid black
+}
+
+.nav3{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  margin-top: 350px;
+}
+
+.nav3 li {
+  margin-right: 15%;
+}
+
+#mont4{
+  margin-top: 33px;
+  width: 100%;
+}
+
+.mixDiv{
+  width: 100%;
+  background-color: black;
+}
+
+#mix{
+  color: #4bb5c8;
+  font-size: 82px;
+  margin-top: 0;
+  padding-top: 140px;
+  text-align: center;
+  font-family: Montserrat Noir;
+}
+
+#slide{
+  margin-top: 230px;
+}
+
+.mySlides{
+  color: red;
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+#but{
+  height: 150px;
+  width: 100px;
+}
+
+#mont5{
+  transform: rotate(180deg);
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  background-image:linear-gradient( #4bb5c8, #40A497);
+  width: 100%;
+}
+
+#footerTitle{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 100px;
+  font-family: Montserrat Noir;
+  color: white;
+}
+
+.formulaire{
+  background-color: black;
+  width: 1420px;
+  height: 450px;
+  color: white;
+  padding: 5px 5px 5px 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caseform{
+  margin-bottom: 20px;
+  margin-top: 57px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#case1{
+  margin-left: 13.5px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#case2{
+  width: 300px;
+  border-radius: 10px;
+}
+
+#case3{
+  margin-left: 11.5px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#case4{
+  width: 400px;
+  height: 185px;
+  border-radius: 10px;
+}
+
+#casemessage{
+  border-radius: 30px;
+  float: right;
+  margin-right: 400px;
+  margin-top: -207px;
+}
+
+#message{
+color: white;
+float: left;
+margin-top: 55px;
+font-size: 30px;
+height: 100px;
+}
+
+#button{
+  float: right;
+  margin-top: -140px;
+  margin-right: 30px;
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+#button:hover{
+  background-color: #4bb5c8;
+  color: white;
+  font-size: 30px;
+}
+
+#mont6{
+  margin-top: -135px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* 3D Slideshow */
+* {
+	margin: 0px;
+	padding: 0;
+
+}
+
+#slideshow {
+	margin: 0 auto;
+	padding-top: 6%;
+	height: 400px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.slideshow-title {
+	font-family: 'Allerta Stencil';
+	font-size: 62px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.sub-heading {
+	padding-top: 50px;
+	font-size: 18px;
+} .sub-heading-two {
+	font-size: 15px;
+} .sub-heading-three {
+	font-size: 13px;
+} .sub-heading-four {
+	font-size: 11px;
+} .sub-heading-five {
+	font-size: 9px;
+} .sub-heading-six {
+	font-size: 7px;
+} .sub-heading-seven {
+	font-size: 5px;
+} .sub-heading-eight {
+	font-size: 3px;
+} .sub-heading-nine {
+	font-size: 1px;
+}
+
+.entire-content {
+	margin: auto;
+	width: 190px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+
+.content-carrousel {
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: rotar 15s infinite linear;
+	transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrousel figure {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #3b444b;
+	overflow: hidden;
+	position: absolute;
+
+}
+
+.content-carrousel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(300px);
+} .content-carrousel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(300px);
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px);
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(300px);
+} .content-carrousel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(300px);
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(300px);
+} .content-carrousel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(300px);
+} .content-carrousel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(300px);
+} .content-carrousel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(300px);
+} .content-carrousel figure:nth-child(10) {
+	transform: rotateY(360deg) translateZ(300px);
+}
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
+}
+
+.content-carrousel img {
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 100%;
+	height: 100%;
+}
+
+.content-carrousel img:hover {
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+
+
+
+a#cRetour{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.25);
+  position:fixed;
+  left: 1470px;
+  opacity:1;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+  bottom:20px;
+  opacity:1;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1280px){
+
+  .nav1{
+    margin-left: 8%;
+  }
+
+  .nav1 li a{
+    font-size: 10px;
+  }
+
+  .landingDiv p{
+    font-size: 140px;
+  }
+
+  #artist{
+    font-size: 50px;
+  }
+
+  #logo{
+    height: 35px;
+    width: 35px;
+  }
+
+  #mont1{
+    margin-top: -80px;
+  }
+
+  #mont2{
+    margin-top: 170px;
+  }
+
+  #mont3{
+    margin-top: 22px;
+  }
+
+  #mont4{
+   margin-top: 127px;
+  }
+
+  #beats{
+    text-align: center;
+  }
+
+  #imgcrea{
+    height: 230px;
+    width: 320px;
+    margin-left: 41.3%;
+    margin-top: 80px;
+  }
+
+  #demarche{
+    margin-left: 45%;
+  }
+
+  #navdem{
+    height: 230px;
+    width: 320px;
+    margin-left: 41.3%;
+    margin-top: -230px;
+  }
+
+  #navdem li{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  #navdemtop{
+    padding-top: 45px;
+  }
+
+  #img2{
+    height: 500px;
+    width : 500px;
+  }
+
+  #art5{
+    font-size: 16px;
+    margin-left: 56%;
+    width: 440px;
+  }
+
+  #casemessage{
+    margin-right: 200px;
+  }
+
+  #message{
+    font-size: 25px;
+  }
+
+  #case4{
+    height: 150px;
+    width: 200px;
+  }
+
+  #button{
+    width: 150px;
+    margin-top: -155px;
+  }
+
+  #button:hover{
+    font-size: 25px;
+  }
+
+  .formulaire{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 980px){
+
+  #mont1{
+   margin-top: -20px;
+  }
+
+  .nav1{
+    margin-left: 7%;
+  }
+
+  .nav1  li{
+    margin: 3% 15px 0 10px;
+  }
+
+  .nav1 li a{
+    font-size: 6px;
+  }
+
+  .landingDiv{
+    height: 300px;
+  }
+
+  .landingDiv p{
+    font-size: 60px;
+  }
+
+  .landingDiv #artist{
+    font-size: 20px;
+    margin-top: -210px;
+  }
+
+  .nav2{
+    margin-left: 32.5%;
+  }
+
+  #logo{
+    height : 20px;
+    width: 20px;
+  }
+
+  #music{
+    font-size: 60px;
+  }
+
+  #imgcrea{
+    margin-left: 120px;
+  }
+
+  #casemessage{
+    margin-right: 200px;
+    float: none;
+    margin-top: 50px;
+  }
+
+  #message{
+    font-size: 25px;
+  }
+
+  #case4{
+    height: 150px;
+    width: 200px;
+  }
+
+  #button{
+    width: 150px;
+    margin-top: -155px;
+    float: none;
+    margin-top: 40px;
+    margin-left: 147px;
+}
+
+  .formulaire{
+      background-color: black;
+      width: 1420px;
+      height: 750px;
+      color: white;
+      padding: 5px 5px 5px 10px;
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  #footerTitle{
+    font-size: 35px;
+  }
+
+  #navdem{
+    height: 230px;
+    width: 320px;
+    margin-left: 23.3%;
+    margin-top: -230px;
+}
+
+  #demarche{
+    margin-left: 31%;
+}
+
+  .nav1 #contact a:hover{
+    border: 1px solid grey;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    padding: 3px 3px;
+    font-size: 15px;
+}
+
+#img2{
+  height: 150px;
+  width: 150px;
+}
+
+#art5{
+  font-size: 12px;
+  margin-left: 34%;
+  width: 350px;
+
+}
+
+}
